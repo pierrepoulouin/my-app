@@ -1,0 +1,46 @@
+.spinner {
+  display: block;
+  margin: 10px auto;
+
+  width: 25px;
+  height: 25px;
+
+  background: red;
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.user {
+  background: yellowgreen;
+}
+
+.user.admin {
+  background: purple;
+}
+
+.super.user {
+  background: green;
+}
+.user.admin {
+  background: blue;
+}
+
+.player.leader {
+  background: red;
+}
+
+.old {
+  color: red;
+}
+
+.young {
+  color: blue;
+}
